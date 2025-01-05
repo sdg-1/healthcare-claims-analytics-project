@@ -14,29 +14,23 @@ This repository contains a Docker Compose configuration for setting up Apache Ai
 - Docker Compose
 
 ## Setup Instructions
-1. Clone this repository:
-   ```bash
-   git clone <repository_url>
-   cd <repository_directory>
-   ```
-
-2. Start the Docker containers:
+1. Start the Docker containers:
    ```bash
    docker-compose up -d
    ```
 
-3. Access the Airflow webserver:
+2. Access the Airflow webserver:
    Open a browser and navigate to [http://localhost:8080](http://localhost:8080). Use the following credentials to log in:
    - Username: `admin`
    - Password: `admin`
 
-4. Add your DAGs:
+3. Add your DAGs:
    Place your DAG files in the `dags` directory (`/basic-airflow/dags`).
 
-5. View logs:
+4. View logs:
    Logs are available in the `logs` directory (`/basic-airflow/logs`).
 
-6. Other steps
+5. Other steps
 
 You'll also need to download claims and beneficiary data from [here](https://data.cms.gov/collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event) to use for the files I have currently hard-coded.
 
