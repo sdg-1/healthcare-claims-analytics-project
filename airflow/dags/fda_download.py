@@ -6,7 +6,7 @@ from utils import download_zip, extract_csv_from_zip
 import os
 
 # Constants
-FDA_URL = "https://www.fda.gov/media/89850/download/"
+FDA_URL = "https://download.open.fda.gov/drug/ndc/drug-ndc-0001-of-0001.json.zip"
 OUTPUT_DIR = "/opt/airflow/dags/fda_data"
 
 def download_and_extract_fda_file(**context):
