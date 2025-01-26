@@ -26,6 +26,8 @@ But two different schema formats, needing to look for other data sets across the
 Here is how the data sets are broken down.
 
 - Claims but for CMS they might call this an Encounter (Inpatient, Outpatient, etc)
+- [Claims 2008-2010 Data](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-claims-synthetic-public-use-files/cms-2008-2010-data-entrepreneurs-synthetic-public-use-file-de-synpuf/de10-sample-1)
+- [Claims 2015-2025 Data](https://data.cms.gov/collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event)
 - Beneficiary - I reference this as patients as it's what I called it when working in claims 
 - Provider
 - Prescriptions
